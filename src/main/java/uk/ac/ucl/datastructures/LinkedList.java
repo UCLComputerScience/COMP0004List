@@ -24,8 +24,8 @@ public class LinkedList<T> implements SimpleList<T>
   /**
    *  Private helper class used to implement the list chain. Instances of
    *  this class are never made available to client code of the list.
-   *  Note that this a generic class that declares a type variable named T
-   *  rather than E, to avoid confusion with the E declared by LinkedList.
+   *  Note that this a generic class that declares a type variable named E
+   *  rather than E, to avoid confusion with the T declared by LinkedList.
    *  Also, this is a static class, so cannot access the enclosing LinkedList
    *  class scope to access instance variables or methods.
    */
